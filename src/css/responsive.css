@@ -30,7 +30,7 @@
 
 @media (max-width: 720px) {
     .ladrilho .grande, 
-    .ladrilho.medio{
+    .ladrilho   .medio{
         width: 100%;
     }
     
@@ -50,10 +50,14 @@
         margin-bottom: 122px;
     }
     
-    .rodape ul li {
+    .rodape ul {
         display: block;
         width: 100%;
         margin-bottom: 122px;
+    }
+
+    .rodape ul li {
+        display: block;
     }
 
     .rodape ul li a {
